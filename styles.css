@@ -1,0 +1,89 @@
+/* Aplicamos los colores a los diferentes elementos */
+body {
+    background-color: #FFC0CB;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+}
+
+p, li, th, td {
+    color: #c2007e;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(195, 143, 255);
+}
+
+.tituloAlternativo {
+    color: #ffe1f6;
+}
+
+.tarjeta {
+    background-color: #ffe1f6;
+    border: 1px solid rgb(195, 143, 255);
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boton {
+    background-color: #ffe1f6;
+    border: 1px solid rgb(195, 143, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #c2007e;
+}
+
+.boton:hover {
+    background-color: #c2007e;
+    color: #ffe1f6;
+}
+
+.boton:active {
+    background-color: #c2007e;
+    color: #ffe1f6;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+fieldset {
+    border: 1px solid rgb(195, 143, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+legend {
+    color: #c2007e;
+}
+
+input {
+    border: 1px solid rgb(195, 143, 255);
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc2ed;
+}
